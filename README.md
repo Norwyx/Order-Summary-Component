@@ -4,7 +4,7 @@ A responsive order summary. This page was built as a front-end project of [Front
 
 - [Page](https://norwyx.github.io/Order-Summary-Component/) - Final result of the project
 
-![Order Summary](./images/final-result.png)
+![Order Summary](./images/final-results.png)
 
 
 
