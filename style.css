@@ -69,10 +69,6 @@ body {
     border-top-right-radius: 15px;
 }
 
-.container .img-div #image {
-    object-fit: contain;
-}
-
 .title {
     font-weight: 900;
     font-size: 1.8rem;
@@ -90,9 +86,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1.5rem;
-    margin-left: 3rem;
-    margin-bottom: 1.5rem;
+    margin: 1.5rem 0 1.5rem 3rem;
 }
 
 .icon-div {
@@ -170,4 +164,61 @@ body {
 .cancel:hover {
     color: var(--dark-blue);
     cursor: pointer;   
+}
+
+/* Mobile version */
+@media only screen and (max-width: 375px) {
+    body {
+        background-image: url(./images/pattern-background-mobile.svg);
+        background-color: var(--pale-blue-clr);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .container {
+        margin: 6rem 2rem 6rem 2rem;
+        max-width: 320px;
+        max-height: 1000px;
+    }
+
+    .img-div {
+        width: 320px;
+    }
+    
+    #image {
+        width: 320px;
+        height: auto;
+    }
+
+    .title {
+        font-size: 1.5rem;
+        padding: 2rem 1rem 0.7rem 1rem;
+    }
+    
+    .description-text {
+        padding: 0 1.8rem 0.1rem 1.8rem;
+    }
+
+    .payment-div {
+        margin: 1.5rem auto 1.5rem 3rem;
+    }
+    
+    .icon-div {
+        padding-top: 0.8rem;
+        margin-left: -1rem;
+    }
+   
+    .pricing {
+        padding-left: 1rem;
+    }
+    
+    .change {
+        margin-left: 2.5rem;
+        padding-top: 0.7rem;
+    }
+
+    #button {
+        width: 270px;
+        margin: 1.5rem 2rem 1rem 2rem;
+    }
 }
