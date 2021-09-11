@@ -33,7 +33,6 @@ body {
     background-image: url(./images/pattern-background-desktop.svg);
     background-color: var(--pale-blue-clr);
     background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
