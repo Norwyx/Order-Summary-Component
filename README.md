@@ -2,7 +2,7 @@
 
 A responsive order summary. This page was built as a front-end project of [Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
-- [Page](https://norwyx.github.io/Order-Summary-Component/) - Final result of the project
+- [Page](https://norwyx.github.io/order-summary-component/) - Final result of the project
 
 ![Order Summary](./images/final-results.png)
 
